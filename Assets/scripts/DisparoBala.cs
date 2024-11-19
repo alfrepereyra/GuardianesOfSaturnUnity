@@ -1,16 +1,15 @@
 using UnityEngine;
- // Asigna aquí el prefab de la explosión en el Inspector
-
 
 public class PlayerShooting : MonoBehaviour
 {
-    public GameObject explosionPrefab;
-    public GameObject bulletPrefab;   // Prefab de la bala
-    public Transform firePoint;       // Punto desde el cual dispara la bala
-    public float bulletSpeed = 10f;   // Velocidad de la bala
-    public AudioClip shootSound;      // Sonido de disparo
+    public BulletPool bulletPool;  // Referencia al BulletPool
+    public Transform firePoint;    // Punto desde el cual dispara la bala
+    public float bulletSpeed = 10f; // Velocidad de la bala
+    public AudioClip shootSound;   // Sonido de disparo
     private AudioSource audioSource;
 
+    public ExplosionPool explosionPool; // Referencia al pool de explosiones
+    
     void Start()
     {
         // Obtiene el AudioSource para reproducir el sonido de disparo
@@ -28,10 +27,12 @@ public class PlayerShooting : MonoBehaviour
 
     void Shoot()
     {
-        // Instancia la bala en el punto de disparo y le asigna una dirección
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        // Obtiene una bala del pool
+        GameObject bullet = bulletPool.GetBullet(firePoint.position, firePoint.rotation);
+
+        // Mueve la bala en la dirección del disparo
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.linearVelocity = transform.up * bulletSpeed; // Ajusta según la dirección que necesites (aquí es hacia arriba)
+        rb.linearVelocity = firePoint.up * bulletSpeed;  // Ajusta la dirección según el "up" del punto de disparo
 
         // Reproduce el sonido de disparo
         if (audioSource && shootSound)
@@ -40,21 +41,5 @@ public class PlayerShooting : MonoBehaviour
         }
     }
 
-     
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enemigo")) // Asegúrate de que el enemigo tenga el tag "Enemigo"
-        {
-            // Instancia la explosión en la posición de la colisión
-            Instantiate(explosionPrefab, collision.transform.position, Quaternion.identity);
-
-            // Destruye solo la instancia específica del enemigo con el que colisiona
-            Destroy(collision.gameObject);
-
-            // Destruye la bala después de la colisión
-            Destroy(bulletPrefab);
-        }
-    }
-        
 }

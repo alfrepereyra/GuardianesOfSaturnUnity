@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bolameteorosinfondo_0: 1207048118675582289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

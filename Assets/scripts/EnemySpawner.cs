@@ -1,47 +1,62 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;     // Prefab del enemigo
+    public int poolSize = 10;          // Tamaño del pool de enemigos
     public float spawnInterval = 2f;   // Intervalo de tiempo entre spawns
     public float spawnRangeX = 8f;     // Rango de spawn en el eje X
 
+    private Queue<GameObject> enemyPool = new Queue<GameObject>(); // Pool de enemigos
     private float timer;
 
-    void Update()
+    void Start()
     {
-        // Incrementa el temporizador
-        timer += Time.deltaTime;
-
-        // Spawnea un enemigo si el temporizador supera el intervalo
-        if (timer >= spawnInterval)
+        // Inicializa el pool de enemigos
+        for (int i = 0; i < poolSize; i++)
         {
-            SpawnEnemy();
-            timer = 0f;
+            GameObject enemy = Instantiate(enemyPrefab);
+            enemy.SetActive(false);  // Desactiva el enemigo inicialmente
+            enemyPool.Enqueue(enemy); // Lo agrega al pool
         }
     }
 
-void SpawnEnemy()
-{
-    // Verifica si el prefab está asignado
-    if (enemyPrefab == null)
+    void Update()
     {
-        Debug.LogError("Prefab de enemigo no asignado en el Inspector.");
-        return;
+        // Solo spawnea un enemigo si el tiempo lo permite
+        timer += Time.deltaTime;
+        if (timer >= spawnInterval)
+        {
+            SpawnEnemy();
+            timer = 0f;  // Resetea el temporizador
+        }
     }
 
-    // Calcula una posición aleatoria en el eje X dentro del rango y una posición fija en Z
-    float randomX = Random.Range(-spawnRangeX, spawnRangeX);
-    float spawnY = transform.position.y;  // Usamos la posición Y actual del spawner
+    void SpawnEnemy()
+    {
+        // Solo saca un enemigo del pool si hay disponibles
+        if (enemyPool.Count > 0)
+        {
+            GameObject enemy = enemyPool.Dequeue();
+            float randomX = Random.Range(-spawnRangeX, spawnRangeX); // Posición aleatoria en X
+            Vector3 spawnPosition = new Vector3(randomX, transform.position.y, -0.6f);  // Posición fija en Y y Z
 
-    Vector3 spawnPosition = new Vector3(randomX, spawnY, -0.6f);  // Eje Z en -0.6
+            enemy.transform.position = spawnPosition;
+            enemy.SetActive(true);  // Activa el enemigo
 
-    // Instancia el enemigo en la posición calculada
-    GameObject ClonEnemigo = Instantiate(enemyPrefab, spawnPosition, transform.rotation);
-    Debug.Log("Enemigo spawneado en posición: " + spawnPosition);
+            Debug.Log("Enemigo spawneado en posición: " + spawnPosition);
+        }
+        else
+        {
+            Debug.LogWarning("No hay enemigos disponibles en el pool.");
+        }
+    }
+
+    // Devuelve un enemigo al pool cuando se destruye o se desactiva
+    public void ReturnEnemyToPool(GameObject enemy)
+    {
+        enemy.SetActive(false);  // Desactiva el enemigo
+        enemyPool.Enqueue(enemy); // Lo regresa al pool
+    }
 }
-
-
-
-}
-

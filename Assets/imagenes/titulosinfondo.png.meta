@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      titulosinfondo_0: 2662175953768049448
+      titulosinfondo_1: -6811528674737238016
+      titulosinfondo_2: -1190624904354205595
+      titulosinfondo_3: 6261934270200537014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
