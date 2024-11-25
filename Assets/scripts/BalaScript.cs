@@ -10,6 +10,7 @@ public class BalaScript : MonoBehaviour
         // Buscar referencias automáticamente
         bulletPool = FindObjectOfType<BulletPool>();
         enemySpawner = FindObjectOfType<EnemySpawner>();
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -17,16 +18,21 @@ public class BalaScript : MonoBehaviour
         // Verificar si colisiona con un enemigo
         if (collision.gameObject.CompareTag("Enemigo"))
         {
-            GameObject enemy = collision.gameObject;
+            Enemigo enemigo = collision.gameObject.GetComponent<Enemigo>();
 
             // Desactiva el enemigo y devuélvelo al pool
-            enemySpawner.ReturnEnemyToPool(enemy);
+            enemySpawner.ReturnEnemyToPool(collision.gameObject);
+            //enemySpawner.ReturnEnemyToPool(enemy);
 
             // Genera la explosión en la posición del enemigo
             SpawnExplosion(collision.transform.position);
+            
+            //agrega 10 puntos a el contador 
+            enemigo.OnBulletCollision();
 
             // Devuelve la bala al pool
             bulletPool.ReturnToPool(gameObject);
+
         }
     }
     void SpawnExplosion(Vector3 position)

@@ -4,6 +4,8 @@ public class Enemigo : MonoBehaviour
 {
     public float lifetime = 10f; // Tiempo antes de regresar al pool automáticamente
     private float timer;
+    public int points = 10; // Puntos que da este enemigo al ser destruido
+
 
     void OnEnable()
     {
@@ -33,5 +35,12 @@ public class Enemigo : MonoBehaviour
         {
             Debug.LogError("No se encontró un EnemySpawner en la escena.");
         }
+    }
+
+        public void OnBulletCollision()
+    {
+        // Agrega puntos al GameManager
+        GameManager.Instance.AddScore(points);
+
     }
 }
