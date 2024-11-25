@@ -23,24 +23,35 @@ public class Enemigo : MonoBehaviour
         }
     }
 
-    private void ReturnToPool()
+private void ReturnToPool()
+{
+    // Encuentra el spawner y devuelve al enemigo al pool
+    EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
+    if (spawner != null)
     {
-        // Encuentra el spawner y devuelve al enemigo al pool
-        EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
-        if (spawner != null)
-        {
-            spawner.ReturnEnemyToPool(gameObject);
-        }
-        else
-        {
-            Debug.LogError("No se encontró un EnemySpawner en la escena.");
-        }
+        // Pasamos el valor 1 para el tipo Enemigo
+        spawner.ReturnEnemyToPool(gameObject, 1);
     }
-
-        public void OnBulletCollision()
+    else
     {
+        Debug.LogError("No se encontró un EnemySpawner en la escena.");
+    }
+}
+void OnCollisionEnter2D(Collision2D collision)
+{
+    // Lista de etiquetas a verificar
+    string[] enemyTags = { "Enemigo", "Enemigo2", "JefeFinal"};
+
+    if (System.Array.Exists(enemyTags, tag => tag == collision.gameObject.tag))
+    {
+        Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+    }
+}
+
+public void OnBulletCollision()
+{
         // Agrega puntos al GameManager
         GameManager.Instance.AddScore(points);
 
-    }
+}
 }

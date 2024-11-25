@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemigo
+  - Enemigo2
   - BalaNave
   layers:
   - Default
