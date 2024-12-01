@@ -1,0 +1,1356 @@
+fileFormatVersion: 2
+guid: 7bb81774f3a7a444f9d75864a1226ab7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5050570621126107794
+    second: SPLASHSCREEN_0
+  - first:
+      213: -125040917550324939
+    second: SPLASHSCREEN_1
+  - first:
+      213: -5807215027662938718
+    second: SPLASHSCREEN_2
+  - first:
+      213: -4136168562440314655
+    second: SPLASHSCREEN_3
+  - first:
+      213: -3264923877742256957
+    second: SPLASHSCREEN_4
+  - first:
+      213: -1413776570180193011
+    second: SPLASHSCREEN_5
+  - first:
+      213: 651648358612796882
+    second: SPLASHSCREEN_6
+  - first:
+      213: -2096621707235012370
+    second: SPLASHSCREEN_7
+  - first:
+      213: -5267917411286237599
+    second: SPLASHSCREEN_8
+  - first:
+      213: 732465252842378369
+    second: SPLASHSCREEN_9
+  - first:
+      213: -6186409268751243113
+    second: SPLASHSCREEN_10
+  - first:
+      213: 7551027176850968515
+    second: SPLASHSCREEN_11
+  - first:
+      213: -1047986260754315570
+    second: SPLASHSCREEN_12
+  - first:
+      213: 1797897033327138711
+    second: SPLASHSCREEN_13
+  - first:
+      213: -7525669692277977981
+    second: SPLASHSCREEN_14
+  - first:
+      213: 7652392379701862009
+    second: SPLASHSCREEN_15
+  - first:
+      213: 3035978789968250175
+    second: SPLASHSCREEN_16
+  - first:
+      213: 9177927415555471026
+    second: SPLASHSCREEN_17
+  - first:
+      213: -3320286563323654007
+    second: SPLASHSCREEN_18
+  - first:
+      213: -489454140307751981
+    second: SPLASHSCREEN_19
+  - first:
+      213: 6115700983340964925
+    second: SPLASHSCREEN_20
+  - first:
+      213: 8966881775555828325
+    second: SPLASHSCREEN_21
+  - first:
+      213: 654444841311753516
+    second: SPLASHSCREEN_22
+  - first:
+      213: 8461647638788454918
+    second: SPLASHSCREEN_23
+  - first:
+      213: -5385821559342010312
+    second: SPLASHSCREEN_24
+  - first:
+      213: 1727105478904223342
+    second: SPLASHSCREEN_25
+  - first:
+      213: -3820526198134082921
+    second: SPLASHSCREEN_26
+  - first:
+      213: 3646061352987575137
+    second: SPLASHSCREEN_27
+  - first:
+      213: -7817292131546605155
+    second: SPLASHSCREEN_28
+  - first:
+      213: -6248058537728092729
+    second: SPLASHSCREEN_29
+  - first:
+      213: -4401277645220862385
+    second: SPLASHSCREEN_30
+  - first:
+      213: 7231882199298735354
+    second: SPLASHSCREEN_31
+  - first:
+      213: -6672671094543304728
+    second: SPLASHSCREEN_32
+  - first:
+      213: 3064293862224213075
+    second: SPLASHSCREEN_33
+  - first:
+      213: -4328362595030732990
+    second: SPLASHSCREEN_34
+  - first:
+      213: -7320057444757299912
+    second: SPLASHSCREEN_35
+  - first:
+      213: -352765321347666919
+    second: SPLASHSCREEN_36
+  - first:
+      213: 5163211308966550519
+    second: SPLASHSCREEN_37
+  - first:
+      213: 7188670498538575729
+    second: SPLASHSCREEN_38
+  - first:
+      213: 2511026848099672070
+    second: SPLASHSCREEN_39
+  - first:
+      213: 1805990899737298548
+    second: SPLASHSCREEN_40
+  - first:
+      213: -2867657797862542840
+    second: SPLASHSCREEN_41
+  - first:
+      213: -7341995668614139391
+    second: SPLASHSCREEN_42
+  - first:
+      213: 5012340764664062783
+    second: SPLASHSCREEN_43
+  - first:
+      213: 8320887101972589064
+    second: SPLASHSCREEN_44
+  - first:
+      213: 2093160583695234763
+    second: SPLASHSCREEN_45
+  - first:
+      213: 1763502283620933212
+    second: SPLASHSCREEN_46
+  - first:
+      213: 8802578026352878537
+    second: SPLASHSCREEN_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPLASHSCREEN_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 493
+        width: 369
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292ee39883b371640800000000000000
+      internalID: 5050570621126107794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_1
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 551
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533260fa2f3c34ef0800000000000000
+      internalID: -125040917550324939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 495
+        width: 229
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad17d543b0a86fa0800000000000000
+      internalID: -5807215027662938718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 246
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e06b985b906996c0800000000000000
+      internalID: -4136168562440314655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 182
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc5b701809a0b2d0800000000000000
+      internalID: -3264923877742256957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 182
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05b3ae23b1416ce0800000000000000
+      internalID: -1413776570180193011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_6
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 182
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d50595cabe1b0900800000000000000
+      internalID: 651648358612796882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 182
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee052e76aad47e2e0800000000000000
+      internalID: -2096621707235012370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 182
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e303a660994e6b0800000000000000
+      internalID: -5267917411286237599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 182
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1849cf5444d3a2a00800000000000000
+      internalID: 732465252842378369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 178
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798e5ec0c85752aa0800000000000000
+      internalID: -6186409268751243113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 182
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfc585d533aac860800000000000000
+      internalID: 7551027176850968515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_12
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 182
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6cf3e5c0ec471f0800000000000000
+      internalID: -1047986260754315570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_13
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 132
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797513e73d963f810800000000000000
+      internalID: 1797897033327138711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_14
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 132
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c09de99437f8790800000000000000
+      internalID: -7525669692277977981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_15
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 132
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e19024352c23a60800000000000000
+      internalID: 7652392379701862009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 132
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f358da9cf96f12a20800000000000000
+      internalID: 3035978789968250175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 132
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6b0829b5c8e5f70800000000000000
+      internalID: 9177927415555471026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_18
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 132
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980579856f8fbe1d0800000000000000
+      internalID: -3320286563323654007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 132
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbbc197d0c1539f0800000000000000
+      internalID: -489454140307751981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 132
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c9b8854a55fd450800000000000000
+      internalID: 6115700983340964925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_21
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 132
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56addee5773c07c70800000000000000
+      internalID: 8966881775555828325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_22
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 132
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c255973ad1e051900800000000000000
+      internalID: 654444841311753516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_23
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 132
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a328c12bfcd6570800000000000000
+      internalID: 8461647638788454918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_24
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 132
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83077cbb3d7b145b0800000000000000
+      internalID: -5385821559342010312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_25
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 132
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6697bf4849e7f710800000000000000
+      internalID: 1727105478904223342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_26
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 132
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792f4213aa3cafac0800000000000000
+      internalID: -3820526198134082921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_27
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 85
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163ca1e9b79699230800000000000000
+      internalID: 3646061352987575137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_28
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 85
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9955b16936638390800000000000000
+      internalID: -7817292131546605155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_29
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 85
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5ded21ddf6a49a0800000000000000
+      internalID: -6248058537728092729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_30
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 85
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f462eb6fc458be2c0800000000000000
+      internalID: -4401277645220862385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_31
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 85
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcfbaa4b8ecc5460800000000000000
+      internalID: 7231882199298735354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_32
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 85
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7baba2ef8e563a0800000000000000
+      internalID: -6672671094543304728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_33
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 85
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354b849480f868a20800000000000000
+      internalID: 3064293862224213075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_34
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 85
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fea1807219ee3c0800000000000000
+      internalID: -4328362595030732990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_35
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 85
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d99cd898ee96a90800000000000000
+      internalID: -7320057444757299912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_36
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 85
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ceefb2fc9ba1bf0800000000000000
+      internalID: -352765321347666919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_37
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 85
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb1b33645967a740800000000000000
+      internalID: 5163211308966550519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_38
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 37
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177d8b03bb943c360800000000000000
+      internalID: 7188670498538575729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_39
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 37
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60023764d95f8d220800000000000000
+      internalID: 2511026848099672070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_40
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 37
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4760e6e972b201910800000000000000
+      internalID: 1805990899737298548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_41
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 37
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80236052d680438d0800000000000000
+      internalID: -2867657797862542840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_42
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 37
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1023cc5c6ddfb1a90800000000000000
+      internalID: -7341995668614139391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_43
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 37
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33e2037e596f8540800000000000000
+      internalID: 5012340764664062783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_44
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 37
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80aa439bbbab97370800000000000000
+      internalID: 8320887101972589064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_45
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 37
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6f009f5766c0d10800000000000000
+      internalID: 2093160583695234763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_46
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 37
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ed0d7cbf7397810800000000000000
+      internalID: 1763502283620933212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPLASHSCREEN_47
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 37
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c32c60b31a092a70800000000000000
+      internalID: 8802578026352878537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

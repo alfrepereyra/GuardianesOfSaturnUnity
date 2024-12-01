@@ -8,18 +8,18 @@ public class MenuPausa : MonoBehaviour
 {
     [SerializeField] private GameObject PanelPausa;
 
-    private bool isPaused = false; // Indica si el juego está pausado o no
+    private bool isPaused = false; 
 
     void Update()
     {
-        // Detecta si se presiona la tecla Escape
+        //detecta la tecla Escape
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            TogglePause(); // Alterna entre pausar y reanudar
+            TogglePause(); 
         }
     }
 
-    // Método para alternar el estado de pausa
+    //alternar el estado de pausa
     public void TogglePause()
     {
         if (isPaused)
@@ -32,30 +32,29 @@ public class MenuPausa : MonoBehaviour
         }
     }
 
-    // Pausa el juego
+   
     private void PauseGame()
     {
         Time.timeScale = 0f; // Detiene el tiempo del juego
         isPaused = true;
-        // Aquí puedes activar un menú de pausa, si tienes uno
         Debug.Log("Juego pausado");
         PanelPausa.SetActive(true);
     }
 
-    // Reanuda el juego
+    //despausar
     private void ResumeGame()
     {
-        Time.timeScale = 1f; // Restaura el tiempo del juego
+        Time.timeScale = 1f; //restaura el tiempo del juego
         isPaused = false;
-        // Aquí puedes desactivar un menú de pausa, si tienes uno
-        Debug.Log("Juego reanudado");
         PanelPausa.SetActive(false);
     }
 
+
+    //salir al menu
     public void QuitToMenu()
     {
-        Time.timeScale = 1f; // Restablece el tiempo por si está pausado
-        SceneManager.LoadScene("MenuInicio"); // Cambia a la escena del menú de inicio
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene("MenuInicio");
     }
 }
 

@@ -2,26 +2,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
-{
-    public GameObject enemyPrefab;     // Prefab del enemigo 1
-    public GameObject enemyType2Prefab; // Prefab del enemigo 2
-    public GameObject finalBossPrefab; // Prefab del jefe final
+{   
+    //prefab de enemigos
+    public GameObject enemyPrefab;     
+    public GameObject enemyType2Prefab; 
+    public GameObject finalBossPrefab; 
 
-    public int poolSize = 10;          // Tamaño del pool para los enemigos comunes
-    public float spawnInterval = 2f;   // Intervalo de tiempo entre spawns
-    public float spawnRangeX = 8f;     // Rango de spawn en el eje X
+    public int poolSize = 15;        
+    public float spawnInterval = 2f;  
+    public float spawnRangeX = 8f;    
 
-    private Queue<GameObject> enemyPool = new Queue<GameObject>();  // Pool de enemigos tipo 1
-    private Queue<GameObject> enemyType2Pool = new Queue<GameObject>(); // Pool de enemigos tipo 2
+    private Queue<GameObject> enemyPool = new Queue<GameObject>();  
+    private Queue<GameObject> enemyType2Pool = new Queue<GameObject>(); 
 
     private float timer;
-    private int currentEnemyType = 1; // Tipo de enemigo actual
+    private int currentEnemyType = 1; 
 
-    private bool finalBossSpawned = false; // Controla si el jefe final ya fue instanciado
+    private bool finalBossSpawned = false; 
 
     void Start()
     {
-        // Inicializa el pool del enemigo 1
+        //iniciael pool del enemigo 1
         for (int i = 0; i < poolSize; i++)
         {
             GameObject enemy = Instantiate(enemyPrefab);
@@ -29,7 +30,7 @@ public class EnemySpawner : MonoBehaviour
             enemyPool.Enqueue(enemy);
         }
 
-        // Inicializa el pool del enemigo 2
+        // inicia el pool del enemigo 2
         for (int i = 0; i < poolSize; i++)
         {
             GameObject enemy = Instantiate(enemyType2Prefab);
@@ -40,10 +41,8 @@ public class EnemySpawner : MonoBehaviour
 
     void Update()
     {
-        // Verifica el puntaje y cambia de tipo de enemigo
         CheckScoreAndSwitchEnemyType();
 
-        // Solo spawnea un enemigo si el tiempo lo permite
         timer += Time.deltaTime;
         if (timer >= spawnInterval && !finalBossSpawned)
         {
@@ -73,9 +72,9 @@ public class EnemySpawner : MonoBehaviour
         enemy.transform.position = spawnPosition;
         enemy.SetActive(true);
 
-        Debug.Log("Enemigo spawneado en posición: " + spawnPosition);
     }
 
+    // Verifica el puntaje
     void CheckScoreAndSwitchEnemyType()
     {
         int score = GameManager.Instance.GetScore();
@@ -83,36 +82,33 @@ public class EnemySpawner : MonoBehaviour
         if (score >= 1000 && score < 2000 && currentEnemyType != 2)
         {
             currentEnemyType = 2;
-            Debug.Log("Cambiando a enemigo tipo 2");
+            Debug.Log("cambiando a enemigo tipo 2");
         }
         else if (score >= 2000 && !finalBossSpawned)
         {
             SpawnFinalBoss();
         }
     }
+//spawnea al boss
+void SpawnFinalBoss()
+{
+    finalBossSpawned = true;
+    Vector3 bossPosition = new Vector3(0, transform.position.y, -0.6f);
 
-    void SpawnFinalBoss()
-    {
-        finalBossSpawned = true;
-        Vector3 bossPosition = new Vector3(0, transform.position.y, -0.6f);
-        Instantiate(finalBossPrefab, bossPosition, Quaternion.identity);
-
-        Debug.Log("¡Jefe final spawneado!");
-    }
+    GameObject finalBoss = Instantiate(finalBossPrefab, bossPosition, Quaternion.identity);
+    finalBoss.SetActive(true);
+}
 
 public void ReturnEnemyToPool(GameObject enemy, int type)
 {
-    enemy.SetActive(false);  // Desactiva el enemigo
-    // Aquí puedes manejar los pools de enemigos según el tipo
+    enemy.SetActive(false);  
     if (type == 1)
-    {
-        // Agregar a pool de Enemigo
+    {   
         enemyPool.Enqueue(enemy);
     }
     else if (type == 2)
     {
-        // Agregar a pool de Enemigo2 (si tienes un pool separado)
-        enemyPool.Enqueue(enemy);  // Usa otro pool si es necesario
+        enemyPool.Enqueue(enemy);  
     }
 }
 }

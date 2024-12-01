@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // Para usar TextMeshPro
+using TMPro; 
 
 public class ScoreDisplay : MonoBehaviour
 {
@@ -7,13 +7,11 @@ public class ScoreDisplay : MonoBehaviour
 
     void Start()
     {
-        // Obtén el componente de texto
         scoreText = GetComponent<TextMeshProUGUI>();
     }
-
+// actualiza el texto con el puntaje actual
     void Update()
     {
-        // Actualiza el texto con el puntaje actual
-        scoreText.text = "Puntos: " + GameManager.Instance.GetScore();
+        scoreText.text = "SCORE: " + GameManager.Instance.GetScore();
     }
 }

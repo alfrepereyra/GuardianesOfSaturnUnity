@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemigo
   - Enemigo2
+  - JefeFinal
+  - BalaJefe
   - BalaNave
   layers:
   - Default
